@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: red;
+    text-align: start;
+    padding: 20px;
+    border-bottom: 2px solid red;
+}
+
+nav {
+    background-color: #111;
+    text-align: start;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #111;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.container img {
+    display: block;
+    margin: 20px auto;   
+    width: 200px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: start;
+    padding: 15px;
+    border-top: 2px solid red;
+    margin-top: 40px;
+}
+
